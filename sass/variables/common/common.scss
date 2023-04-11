@@ -1,0 +1,95 @@
+.allContainer {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 6.25rem;
+  background-color: #000000;
+}
+.navLogo {
+  width: 14.475rem;
+  margin-right: 15px;
+}
+.navTxt {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.txtContainerL {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.arrowD {
+  margin-top: 100px;
+}
+.arrowImg {
+  width: auto;
+  max-width: 100px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info span {
+  text-align: center;
+}
+.info div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.btnInfo {
+  margin: 10px 5px;
+  padding: 15px 30px;
+}
+.title1 {
+  font-size: 6.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+.btnPage1 {
+  margin-top: 20px;
+  height: 60px;
+  width: 165px;
+  border-width: 2px;
+}
+@media (max-width: 768px) {
+  .title1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .navLogo {
+    width: 10rem;
+  }
+  .h1 {
+    font-size: 1.375rem;
+  }
+  .h5 {
+    font-size: 0.813rem;
+  }
+  .btnPage1 {
+    height: 40px;
+    width: 140px;
+  }
+  .title1 {
+    font-size: 2.25rem;
+  }
+}

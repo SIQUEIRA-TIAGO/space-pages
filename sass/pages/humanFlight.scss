@@ -1,0 +1,58 @@
+.firstContainerP2 {
+  background-image: url(../../img/pages/humanFlight/01.jpg);
+}
+.secondContainerP2 {
+  background-image: url(../../img/pages/humanFlight/02.jpg);
+}
+.thirdContainerP2 {
+  background-image: url(../../img/pages/humanFlight/03.jpg);
+}
+.fourthContainerP2 {
+  background-image: url(../../img/pages/humanFlight/04.jpg);
+}
+.fifthContainerP2 {
+  background-image: url(../../img/pages/humanFlight/05.jpg);
+}
+
+.humanSpaceTitle {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+}
+.midText {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 25px 250px;
+  margin: 0;
+}
+.txtContainerR {
+  height: 100%;
+  padding-left: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textArea {
+  background-color: #000000;
+}
+.txtSize {
+  font-size: 3.438rem;
+}
+
+@media (max-width: 768px) {
+  .midText {
+    font-size: 0.7rem;
+    padding: 2px 0px;
+  }
+  .txtSize {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .txtContainerR {
+    padding-left: 0;
+  }
+}
